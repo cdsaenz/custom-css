@@ -26,7 +26,7 @@ function load_custom_css($args)
 function custom_css_settings($args)
 {
     global $Wcms;
-    if (!$Wcms::$loggedIn) return $args;
+    if (!$Wcms->loggedIn) return $args;
 
     $args[0] .= "<div>Just a test</div>";
     return $args;
