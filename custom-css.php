@@ -8,21 +8,29 @@ global $Wcms;
 
 // Register listeners for custom CSS and settings
 $Wcms->addListener('css', 'load_custom_css');
-$Wcms->addListener('editable', 'custom_css_settings');
+$Wcms->addListener('settings', 'custom_css_settings');
 
 
 // Load custom CSS
-function load_custom_css($args) {
+function load_custom_css($args)
+{
     global $Wcms;
     $custom_css_url = $Wcms->url('plugins/custom-css/custom.css');
-    
+
     // Add the custom CSS to the existing CSS in the head
     $args[0] .= '<link rel="stylesheet" href="' . $custom_css_url . '" type="text/css">';
     return $args;
 }
 
 // Display the custom CSS settings in the admin area
-function custom_css_settings($args) {
+function custom_css_settings($args)
+{
+    global $Wcms;
+    if (!$Wcms::$loggedIn) return $args;
+
+    $args[0] .= "<div>Just a test</div>";
+    return $args;
+
     // Load the current custom CSS content
     $custom_css = file_get_contents('plugins/custom-css/custom.css');
 
