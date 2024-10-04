@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "plugins": {
+        "plugin-name": {
+            "name": "Custom CSS",
+            "repo": "#",
+            "zip": "#",
+            "summary": "Custom CSS loads after Theme's own",
+            "version": "1.0.0",
+            "image": "https://raw.githubusercontent.com/yourUsername/plugin-name/master/preview.jpg"
+        }
+    }
+}
