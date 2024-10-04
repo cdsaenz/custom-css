@@ -1,5 +1,5 @@
 {
-    "version": 1.1,
+    "version": 1,
     "plugins": {
         "custom-css": {
             "name": "Custom CSS",
@@ -7,7 +7,7 @@
             "zip": "https://github.com/cdsaenz/custom-css/archive/main.zip",
             "summary": "Custom CSS loads after Theme's own",
             "jsonUrl" : "https://raw.githubusercontent.com/cdsaenz/custom-css/main/wcms-modules.json",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "image": "https://raw.githubusercontent.com/cdsaenz/custom-css/main/preview.jpg"
         }
     }
