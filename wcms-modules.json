@@ -6,7 +6,7 @@
             "repo": "https://github.com/cdsaenz/wondercms-custom-css-plugin/tree/master",
             "zip": "https://github.com/cdsaenz/wondercms-custom-css-plugin/archive/master.zip",
             "summary": "Custom CSS loads after Theme's own",
-            "url" : "https://raw.githubusercontent.com/cdsaenz/wondercms-custom-css-plugin/master/wcms-modules.json",
+            "jsonUrl" : "https://raw.githubusercontent.com/cdsaenz/wondercms-custom-css-plugin/master/wcms-modules.json",
             "version": "1.0.0",
             "image": "https://raw.githubusercontent.com/cdsaenz/wondercms-custom-css-plugin/master/preview.jpg"
         }
