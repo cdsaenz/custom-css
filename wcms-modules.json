@@ -1,7 +1,7 @@
 {
     "version": 1,
     "plugins": {
-        "plugin-name": {
+        "custom-css": {
             "name": "Custom CSS",
             "repo": "https://github.com/cdsaenz/custom-css/tree/main",
             "zip": "https://github.com/cdsaenz/custom-css/archive/main.zip",
